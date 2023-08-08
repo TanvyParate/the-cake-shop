@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&family=Sue+Ellen+Francisco&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 1.5px;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    transition: 0.5s linear;
+    column-gap: 1vw;
+    background-color: #FBA1B7;
+    border-bottom: 1px solid #000;
+}
+
+.navbar .side-nav {
+    display: flex;
+    column-gap: 5vw;
+    text-transform: uppercase;
+}
+
+.navbar .side-nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #000;
+}
+
+.navbar .side-nav a:hover {
+    color: #FFF;
+}
+
+.navbar .side-nav i {
+    font-size: 1.7vw;
+}
+
+.navbar .side-nav i:hover {
+    color: #FFF;
+}
+
+.navbar h1 {
+    font-family: 'Gluten', cursive;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.home {
+    background-color: #FBA1B7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.home .home-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .home-left h1 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 4vw;
+    line-height: 4.5vw;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.home .home-left p {
+    width: 60%;
+    padding-top: 30px;
+    font-size: 1.3vw;
+}
+
+.home .home-left button {
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #FFD1DA;
+    font-size: 1.2vw;
+    font-weight: 500;
+    border: #FBA1B7;
+}
+
+.home .home-left button:hover {
+    background-color: #ffd1da90;
+}
+
+.home .home-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-right img {
+    width: 55%;
+    border-radius: 1vw;
+}
+
+.main {
+    width: 100%;
+}
+
+.main .section h1 {
+    text-align: center;
+    padding: 30px 10px 0 10px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 2.3vw;
+    color: #000;
+}
+
+.main .section .main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.main .section .main-container .box {
+    padding: 0 30px;
+}
+
+.main .section .main-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main .section .main-container .content {
+    text-align: center;
+    padding: 10px;
+}
+
+.main .section .main-container .content a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+
+.main .section .main-container .content a:hover {
+    font-size: 1.7vw;
+    color: #FBA1B7;
+}
+
+.footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,auto));
+    gap: 1vw;
+    background-color: #FFDBAA;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+
+.footer-box h2 {
+    font-family: 'Gluten', cursive;
+    font-weight: 600;
+    font-size: 2vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-box p {
+    font-size: 1vw;
+    padding: 10px 30px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5vw;
+}
+
+.social a .bx {
+    font-size: 24px;
+    color: #000;
+    padding: 10px;
+    background: #ffffff76;
+    border-radius: 0.5vw;
+    margin: 10px 30px;
+}
+
+.social a .bx:hover {
+    background: #ffffff;
+}
+
+.footer-box h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.7vw;
+}
+
+.footer-box li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-box li {
+    list-style-type: none;
+}
+
+.footer-box li a:hover {
+    color: var(--main-color);
+}
+
+.copyright {
+    padding: 15px;
+    text-align: center;
+    color: #000;
+}
+
+
+/* Making Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 12px 4%;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+    .home .home-left {
+        height: 35%;
+        width: 100%;
+    }
+    .home .home-left h1 {
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+    .home .home-left p {
+        font-size: 2vw;
+    }
+    .home .home-left button {
+        font-size: 2vw;
+        padding: 10px 15px;
+    }
+    .home .home-right {
+        height: 65%;
+        width: 100%;
+        background-color: #000;
+    }
+    .home-right img {
+        height: 100%;
+        width: 100%;
+    }
+    .main .section h1 {
+        font-size: 5vw;
+    }
+    .main .section .main-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+    }
+    .main .section .main-container .content a {
+        font-size: 4vw;
+    }
+    .main .section .main-container .content a:hover {
+        font-size: 4.6vw;
+    }
+    .footer-box h2 {
+        font-size: 5vw;
+        padding: 0;
+    }
+    .footer-box p {
+        font-size: 2.5vw;
+        margin: 5px;
+    }
+    .social a .bx {
+        padding: 0;
+        border-radius: 1vw;
+        margin: 0 30px;
+    }
+    .footer-box h3 {
+        margin: 10px 30px;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .footer-box li a {
+        font-size: 3vw;
+        margin: 0 10px;
+    }
+    .copyright {
+        padding: 10px;
+        font-size: 2.5vw;
+    }
+}
+
