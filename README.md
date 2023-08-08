@@ -5,7 +5,8 @@
 🍰 Key Features:
 ✨ Responsive Design : I've grasped the art of media queries, fluid layouts, and flexible grids to ensure that this website looks and functions flawlessly on any device - from large screens to smartphones.
 
-I had a lot of fun working on this project, and I'm excited to share it with you all. Check it out here: https://tanvyparate-the-cake-shop.glitch.me/
+I had a lot of fun working on this project, and I'm excited to share it with you all. 
+Check it out here: https://tanvyparate-the-cake-shop.glitch.me/
 
 ## Technologies Used
 
